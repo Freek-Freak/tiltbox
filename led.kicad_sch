@@ -1136,6 +1136,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 300.99) (xy 248.92 300.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c4c94e0-bd19-4d87-9366-debb7e83aea2")
+	)
+	(wire
+		(pts
 			(xy 80.01 212.09) (xy 80.01 256.54)
 		)
 		(stroke
@@ -1203,6 +1213,16 @@
 			(type default)
 		)
 		(uuid "e429fd54-8111-427c-a58e-2ab8c7f9d6cd")
+	)
+	(wire
+		(pts
+			(xy 256.54 293.37) (xy 248.92 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8ac78c3-1ce5-4916-a24a-0e6d0175f793")
 	)
 	(global_label "Din_LED"
 		(shape input)
@@ -1379,7 +1399,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0280e4bf-1261-4266-aaca-dbb7117f7f10")
-		(property "Reference" "LED59"
+		(property "Reference" "LED65"
 			(at 163.322 250.444 0)
 			(effects
 				(font
@@ -1456,7 +1476,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED59")
+					(reference "LED65")
 					(unit 1)
 				)
 			)
@@ -1615,7 +1635,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03b8a24a-e839-43d2-bae4-7ea32a4b8495")
-		(property "Reference" "LED45"
+		(property "Reference" "LED42"
 			(at 109.982 176.784 0)
 			(effects
 				(font
@@ -1692,7 +1712,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED45")
+					(reference "LED42")
 					(unit 1)
 				)
 			)
@@ -1773,7 +1793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04a94eb7-c0b3-4c74-81f2-d2a5f6d629ce")
-		(property "Reference" "LED69"
+		(property "Reference" "LED48"
 			(at 216.662 176.784 0)
 			(effects
 				(font
@@ -1850,7 +1870,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED69")
+					(reference "LED48")
 					(unit 1)
 				)
 			)
@@ -2839,7 +2859,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c0d4a18-96e0-4e55-acaa-3c76ddb583fb")
-		(property "Reference" "LED83"
+		(property "Reference" "LED82"
 			(at 109.982 324.104 0)
 			(effects
 				(font
@@ -2916,7 +2936,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED83")
+					(reference "LED82")
 					(unit 1)
 				)
 			)
@@ -4085,7 +4105,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1364befa-5d79-4e0e-909c-4393bbf84f0b")
-		(property "Reference" "LED29"
+		(property "Reference" "LED25"
 			(at 163.322 103.124 0)
 			(effects
 				(font
@@ -4162,7 +4182,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED29")
+					(reference "LED25")
 					(unit 1)
 				)
 			)
@@ -4177,7 +4197,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13eae0b5-77df-488b-9574-aee99ac3b5ee")
-		(property "Reference" "LED49"
+		(property "Reference" "LED43"
 			(at 127.762 176.784 0)
 			(effects
 				(font
@@ -4254,7 +4274,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED49")
+					(reference "LED43")
 					(unit 1)
 				)
 			)
@@ -4347,7 +4367,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "146f5286-816c-4852-8e4b-55850ea16db9")
-		(property "Reference" "LED64"
+		(property "Reference" "LED76"
 			(at 156.718 291.846 0)
 			(effects
 				(font
@@ -4424,7 +4444,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED64")
+					(reference "LED76")
 					(unit 1)
 				)
 			)
@@ -4925,7 +4945,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1cbb7783-ff24-4f4f-ba23-5334403f5f42")
-		(property "Reference" "LED32"
+		(property "Reference" "LED36"
 			(at 156.718 144.526 0)
 			(effects
 				(font
@@ -5002,7 +5022,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED32")
+					(reference "LED36")
 					(unit 1)
 				)
 			)
@@ -6451,7 +6471,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29a00995-2e60-47d8-9bd6-67bf8469627e")
-		(property "Reference" "LED94"
+		(property "Reference" "LED97"
 			(at 138.938 365.506 0)
 			(effects
 				(font
@@ -6528,7 +6548,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED94")
+					(reference "LED97")
 					(unit 1)
 				)
 			)
@@ -6621,7 +6641,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a9cc505-0547-4bf8-b69e-171bc14f840c")
-		(property "Reference" "LED52"
+		(property "Reference" "LED73"
 			(at 210.058 291.846 0)
 			(effects
 				(font
@@ -6698,7 +6718,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED52")
+					(reference "LED73")
 					(unit 1)
 				)
 			)
@@ -7279,7 +7299,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2fd7a43b-e98b-41e2-aa6b-187b4db11850")
-		(property "Reference" "LED58"
+		(property "Reference" "LED55"
 			(at 174.498 218.186 0)
 			(effects
 				(font
@@ -7356,7 +7376,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED58")
+					(reference "LED55")
 					(unit 1)
 				)
 			)
@@ -7515,7 +7535,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31a2cd98-eb1e-49ff-abdf-b5b79380ce5e")
-		(property "Reference" "LED96"
+		(property "Reference" "LED98"
 			(at 121.158 365.506 0)
 			(effects
 				(font
@@ -7592,7 +7612,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED96")
+					(reference "LED98")
 					(unit 1)
 				)
 			)
@@ -7805,7 +7825,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32e091c6-5c9c-4405-99f7-0649eb18e7af")
-		(property "Reference" "LED46"
+		(property "Reference" "LED52"
 			(at 227.838 218.186 0)
 			(effects
 				(font
@@ -7882,7 +7902,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED46")
+					(reference "LED52")
 					(unit 1)
 				)
 			)
@@ -7975,7 +7995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33d64863-283d-4a9c-9be3-ddf5cba8ff1e")
-		(property "Reference" "LED56"
+		(property "Reference" "LED74"
 			(at 192.278 291.846 0)
 			(effects
 				(font
@@ -8052,7 +8072,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED56")
+					(reference "LED74")
 					(unit 1)
 				)
 			)
@@ -8067,7 +8087,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3464437d-8792-4881-9c85-7bb370ec638a")
-		(property "Reference" "LED33"
+		(property "Reference" "LED27"
 			(at 198.882 103.124 0)
 			(effects
 				(font
@@ -8144,7 +8164,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED33")
+					(reference "LED27")
 					(unit 1)
 				)
 			)
@@ -8489,7 +8509,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36ec1ebc-e7e1-400d-968f-2b91d11ddc42")
-		(property "Reference" "LED74"
+		(property "Reference" "LED59"
 			(at 103.378 218.186 0)
 			(effects
 				(font
@@ -8566,7 +8586,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED74")
+					(reference "LED59")
 					(unit 1)
 				)
 			)
@@ -8937,7 +8957,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e162818-05f0-4a9e-a7fd-582e9d949d1c")
-		(property "Reference" "LED65"
+		(property "Reference" "LED47"
 			(at 198.882 176.784 0)
 			(effects
 				(font
@@ -9014,7 +9034,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED65")
+					(reference "LED47")
 					(unit 1)
 				)
 			)
@@ -9239,7 +9259,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f407920-9a61-4428-90b8-a412c70fc171")
-		(property "Reference" "LED79"
+		(property "Reference" "LED70"
 			(at 252.222 250.444 0)
 			(effects
 				(font
@@ -9316,7 +9336,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED79")
+					(reference "LED70")
 					(unit 1)
 				)
 			)
@@ -9791,7 +9811,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4211c30d-a89a-48ee-91d7-161f9419269d")
-		(property "Reference" "LED23"
+		(property "Reference" "LED22"
 			(at 109.982 103.124 0)
 			(effects
 				(font
@@ -9868,7 +9888,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED23")
+					(reference "LED22")
 					(unit 1)
 				)
 			)
@@ -9883,7 +9903,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42b18668-7ac5-40c7-9b79-18e6c7c0b51f")
-		(property "Reference" "LED42"
+		(property "Reference" "LED51"
 			(at 245.618 218.186 0)
 			(effects
 				(font
@@ -9960,7 +9980,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED42")
+					(reference "LED51")
 					(unit 1)
 				)
 			)
@@ -10197,7 +10217,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4475d21d-3e40-4ca5-b4b1-210d442498c6")
-		(property "Reference" "LED86"
+		(property "Reference" "LED93"
 			(at 210.058 365.506 0)
 			(effects
 				(font
@@ -10274,7 +10294,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED86")
+					(reference "LED93")
 					(unit 1)
 				)
 			)
@@ -10355,7 +10375,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46fed84c-9c82-4d6e-90ae-d4fe53f7b2a5")
-		(property "Reference" "LED26"
+		(property "Reference" "LED33"
 			(at 210.058 144.526 0)
 			(effects
 				(font
@@ -10432,7 +10452,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED26")
+					(reference "LED33")
 					(unit 1)
 				)
 			)
@@ -10777,7 +10797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b43859a-b065-4be0-b5d3-c45931e21cde")
-		(property "Reference" "LED91"
+		(property "Reference" "LED86"
 			(at 181.102 324.104 0)
 			(effects
 				(font
@@ -10854,7 +10874,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED91")
+					(reference "LED86")
 					(unit 1)
 				)
 			)
@@ -11289,7 +11309,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50240759-58bd-4c34-bd9f-36a18ce10890")
-		(property "Reference" "LED82"
+		(property "Reference" "LED91"
 			(at 245.618 365.506 0)
 			(effects
 				(font
@@ -11366,7 +11386,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED82")
+					(reference "LED91")
 					(unit 1)
 				)
 			)
@@ -12065,7 +12085,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54a8c598-b639-445f-96ec-e443458dd442")
-		(property "Reference" "LED78"
+		(property "Reference" "LED60"
 			(at 85.598 218.186 0)
 			(effects
 				(font
@@ -12142,7 +12162,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED78")
+					(reference "LED60")
 					(unit 1)
 				)
 			)
@@ -12421,7 +12441,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56d992da-80b8-401b-b348-dcc5a29794d7")
-		(property "Reference" "LED25"
+		(property "Reference" "LED23"
 			(at 127.762 103.124 0)
 			(effects
 				(font
@@ -12498,7 +12518,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED25")
+					(reference "LED23")
 					(unit 1)
 				)
 			)
@@ -12605,7 +12625,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5788e741-33b8-4068-8858-d58052bd24f4")
-		(property "Reference" "LED90"
+		(property "Reference" "LED95"
 			(at 174.498 365.506 0)
 			(effects
 				(font
@@ -12682,7 +12702,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED90")
+					(reference "LED95")
 					(unit 1)
 				)
 			)
@@ -13393,7 +13413,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5bb483c6-9e25-4582-a65b-04ef0cc7545c")
-		(property "Reference" "LED62"
+		(property "Reference" "LED56"
 			(at 156.718 218.186 0)
 			(effects
 				(font
@@ -13470,7 +13490,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED62")
+					(reference "LED56")
 					(unit 1)
 				)
 			)
@@ -15917,7 +15937,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68ef43d3-d7a2-4255-9376-507df8ff697e")
-		(property "Reference" "LED38"
+		(property "Reference" "LED39"
 			(at 103.378 144.526 0)
 			(effects
 				(font
@@ -15994,7 +16014,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED38")
+					(reference "LED39")
 					(unit 1)
 				)
 			)
@@ -16009,7 +16029,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69c3d9bb-c20b-424c-95b9-9539e0c7ff3d")
-		(property "Reference" "LED89"
+		(property "Reference" "LED85"
 			(at 163.322 324.104 0)
 			(effects
 				(font
@@ -16086,7 +16106,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED89")
+					(reference "LED85")
 					(unit 1)
 				)
 			)
@@ -16167,7 +16187,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b2118e8-9bc3-45de-94f6-55d04cbb4dad")
-		(property "Reference" "LED99"
+		(property "Reference" "LED90"
 			(at 252.222 324.104 0)
 			(effects
 				(font
@@ -16244,7 +16264,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED99")
+					(reference "LED90")
 					(unit 1)
 				)
 			)
@@ -16469,7 +16489,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6df247fe-6782-4afe-861f-a5f6f6dcf25e")
-		(property "Reference" "LED53"
+		(property "Reference" "LED44"
 			(at 145.542 176.784 0)
 			(effects
 				(font
@@ -16546,7 +16566,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED53")
+					(reference "LED44")
 					(unit 1)
 				)
 			)
@@ -17335,7 +17355,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72c44108-6249-4b0c-91d0-ddf3a14085e8")
-		(property "Reference" "LED37"
+		(property "Reference" "LED29"
 			(at 234.442 103.124 0)
 			(effects
 				(font
@@ -17412,7 +17432,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED37")
+					(reference "LED29")
 					(unit 1)
 				)
 			)
@@ -17597,7 +17617,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74631ecd-8480-43c6-8210-4f5a599de70d")
-		(property "Reference" "LED85"
+		(property "Reference" "LED83"
 			(at 127.762 324.104 0)
 			(effects
 				(font
@@ -17674,7 +17694,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED85")
+					(reference "LED83")
 					(unit 1)
 				)
 			)
@@ -18133,7 +18153,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7922db16-4e9f-4d9d-8b28-562652edaf2b")
-		(property "Reference" "LED22"
+		(property "Reference" "LED31"
 			(at 245.618 144.526 0)
 			(effects
 				(font
@@ -18210,7 +18230,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED22")
+					(reference "LED31")
 					(unit 1)
 				)
 			)
@@ -19143,7 +19163,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "821bb74c-feb1-489e-a399-cdb45a644a41")
-		(property "Reference" "LED36"
+		(property "Reference" "LED38"
 			(at 121.158 144.526 0)
 			(effects
 				(font
@@ -19220,7 +19240,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED36")
+					(reference "LED38")
 					(unit 1)
 				)
 			)
@@ -19735,7 +19755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84b44d35-9bfa-4061-8776-a3f42cf2bee6")
-		(property "Reference" "LED43"
+		(property "Reference" "LED61"
 			(at 92.202 250.444 0)
 			(effects
 				(font
@@ -19812,7 +19832,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED43")
+					(reference "LED61")
 					(unit 1)
 				)
 			)
@@ -20247,7 +20267,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "864929e8-92c1-472b-863f-48f8fbc9463b")
-		(property "Reference" "LED77"
+		(property "Reference" "LED50"
 			(at 252.222 176.784 0)
 			(effects
 				(font
@@ -20324,7 +20344,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED77")
+					(reference "LED50")
 					(unit 1)
 				)
 			)
@@ -20405,7 +20425,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87f7494f-5192-4676-8cc2-392e176b6440")
-		(property "Reference" "LED27"
+		(property "Reference" "LED24"
 			(at 145.542 103.124 0)
 			(effects
 				(font
@@ -20482,7 +20502,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED27")
+					(reference "LED24")
 					(unit 1)
 				)
 			)
@@ -20575,7 +20595,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89ddb83c-aa5b-44da-8600-bd3dede9fba5")
-		(property "Reference" "LED93"
+		(property "Reference" "LED87"
 			(at 198.882 324.104 0)
 			(effects
 				(font
@@ -20652,7 +20672,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED93")
+					(reference "LED87")
 					(unit 1)
 				)
 			)
@@ -21627,7 +21647,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9127ff3f-572e-46a1-84ec-9e475e529ba0")
-		(property "Reference" "LED35"
+		(property "Reference" "LED28"
 			(at 216.662 103.124 0)
 			(effects
 				(font
@@ -21704,7 +21724,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED35")
+					(reference "LED28")
 					(unit 1)
 				)
 			)
@@ -22877,7 +22897,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99ef5654-f543-4cb2-8364-3838d3a9e6fb")
-		(property "Reference" "LED48"
+		(property "Reference" "LED72"
 			(at 227.838 291.846 0)
 			(effects
 				(font
@@ -22954,7 +22974,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED48")
+					(reference "LED72")
 					(unit 1)
 				)
 			)
@@ -23035,7 +23055,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b7a2f69-6127-483c-9f95-b8bafbbb57ef")
-		(property "Reference" "LED28"
+		(property "Reference" "LED34"
 			(at 192.278 144.526 0)
 			(effects
 				(font
@@ -23112,7 +23132,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED28")
+					(reference "LED34")
 					(unit 1)
 				)
 			)
@@ -23667,7 +23687,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f2d3b9f-74f3-4d13-b140-34dff1475836")
-		(property "Reference" "LED34"
+		(property "Reference" "LED37"
 			(at 138.938 144.526 0)
 			(effects
 				(font
@@ -23744,7 +23764,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED34")
+					(reference "LED37")
 					(unit 1)
 				)
 			)
@@ -24127,7 +24147,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0eed713-3854-411e-99df-cdc08acad73d")
-		(property "Reference" "LED30"
+		(property "Reference" "LED35"
 			(at 174.498 144.526 0)
 			(effects
 				(font
@@ -24204,7 +24224,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED30")
+					(reference "LED35")
 					(unit 1)
 				)
 			)
@@ -24889,7 +24909,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a575aff9-2aa0-4d54-b744-1cc56379e57a")
-		(property "Reference" "LED98"
+		(property "Reference" "LED99"
 			(at 103.378 365.506 0)
 			(effects
 				(font
@@ -24966,7 +24986,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED98")
+					(reference "LED99")
 					(unit 1)
 				)
 			)
@@ -26661,7 +26681,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aef764a8-c506-49fc-a5b8-471da429814d")
-		(property "Reference" "LED97"
+		(property "Reference" "LED89"
 			(at 234.442 324.104 0)
 			(effects
 				(font
@@ -26738,7 +26758,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED97")
+					(reference "LED89")
 					(unit 1)
 				)
 			)
@@ -27489,7 +27509,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1d07e3e-bbca-4892-8d5f-cbf37499d1b5")
-		(property "Reference" "LED76"
+		(property "Reference" "LED79"
 			(at 103.378 291.846 0)
 			(effects
 				(font
@@ -27566,7 +27586,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED76")
+					(reference "LED79")
 					(unit 1)
 				)
 			)
@@ -28583,7 +28603,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9842393-ec1f-4022-ac97-ad44b9759494")
-		(property "Reference" "LED88"
+		(property "Reference" "LED94"
 			(at 192.278 365.506 0)
 			(effects
 				(font
@@ -28660,7 +28680,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED88")
+					(reference "LED94")
 					(unit 1)
 				)
 			)
@@ -28753,7 +28773,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba563426-4300-41c9-add5-c7e8a4b3be2a")
-		(property "Reference" "LED60"
+		(property "Reference" "LED75"
 			(at 174.498 291.846 0)
 			(effects
 				(font
@@ -28830,7 +28850,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED60")
+					(reference "LED75")
 					(unit 1)
 				)
 			)
@@ -30213,7 +30233,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c28f5e9d-9fbb-4db1-af3a-34d3293b530d")
-		(property "Reference" "LED87"
+		(property "Reference" "LED84"
 			(at 145.542 324.104 0)
 			(effects
 				(font
@@ -30290,7 +30310,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED87")
+					(reference "LED84")
 					(unit 1)
 				)
 			)
@@ -31003,7 +31023,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c714c57c-0487-435b-a56d-4198ba20c2ab")
-		(property "Reference" "LED92"
+		(property "Reference" "LED96"
 			(at 156.718 365.506 0)
 			(effects
 				(font
@@ -31080,7 +31100,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED92")
+					(reference "LED96")
 					(unit 1)
 				)
 			)
@@ -31305,7 +31325,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9831fec-decb-4561-b91f-c538647e8af5")
-		(property "Reference" "LED61"
+		(property "Reference" "LED46"
 			(at 181.102 176.784 0)
 			(effects
 				(font
@@ -31382,7 +31402,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED61")
+					(reference "LED46")
 					(unit 1)
 				)
 			)
@@ -31619,7 +31639,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca5d8285-da44-49f0-800f-452ebf077813")
-		(property "Reference" "LED72"
+		(property "Reference" "LED78"
 			(at 121.158 291.846 0)
 			(effects
 				(font
@@ -31696,7 +31716,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED72")
+					(reference "LED78")
 					(unit 1)
 				)
 			)
@@ -31935,7 +31955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1ec4693-4370-48a1-b984-a1c80f2fbb9c")
-		(property "Reference" "LED50"
+		(property "Reference" "LED53"
 			(at 210.058 218.186 0)
 			(effects
 				(font
@@ -32012,7 +32032,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED50")
+					(reference "LED53")
 					(unit 1)
 				)
 			)
@@ -32093,7 +32113,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d296aba6-d68c-4aab-b068-44c1b3ff6d7e")
-		(property "Reference" "LED73"
+		(property "Reference" "LED49"
 			(at 234.442 176.784 0)
 			(effects
 				(font
@@ -32170,7 +32190,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED73")
+					(reference "LED49")
 					(unit 1)
 				)
 			)
@@ -32185,7 +32205,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2d65ca7-905c-4742-b930-584aac67e8b9")
-		(property "Reference" "LED70"
+		(property "Reference" "LED58"
 			(at 121.158 218.186 0)
 			(effects
 				(font
@@ -32262,7 +32282,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED70")
+					(reference "LED58")
 					(unit 1)
 				)
 			)
@@ -32409,7 +32429,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d439b95e-8765-4ded-b807-1dfa6df1da07")
-		(property "Reference" "LED55"
+		(property "Reference" "LED64"
 			(at 145.542 250.444 0)
 			(effects
 				(font
@@ -32486,7 +32506,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED55")
+					(reference "LED64")
 					(unit 1)
 				)
 			)
@@ -32501,7 +32521,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d48287d2-8d07-4f02-8ca5-1f39ea171511")
-		(property "Reference" "LED57"
+		(property "Reference" "LED45"
 			(at 163.322 176.784 0)
 			(effects
 				(font
@@ -32578,7 +32598,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED57")
+					(reference "LED45")
 					(unit 1)
 				)
 			)
@@ -32725,7 +32745,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d533b2c7-3175-4300-893c-b4013353bb5a")
-		(property "Reference" "LED63"
+		(property "Reference" "LED66"
 			(at 181.102 250.444 0)
 			(effects
 				(font
@@ -32802,7 +32822,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED63")
+					(reference "LED66")
 					(unit 1)
 				)
 			)
@@ -32961,7 +32981,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d63e4123-939f-4812-8a83-c211eab9161f")
-		(property "Reference" "LED95"
+		(property "Reference" "LED88"
 			(at 216.662 324.104 0)
 			(effects
 				(font
@@ -33038,7 +33058,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED95")
+					(reference "LED88")
 					(unit 1)
 				)
 			)
@@ -33751,7 +33771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc4322a2-3004-4c3d-ba7e-eb566cb8c751")
-		(property "Reference" "LED44"
+		(property "Reference" "LED71"
 			(at 245.618 291.846 0)
 			(effects
 				(font
@@ -33828,7 +33848,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED44")
+					(reference "LED71")
 					(unit 1)
 				)
 			)
@@ -33836,7 +33856,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 248.92 297.18 180)
+		(at 256.54 297.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33844,7 +33864,7 @@
 		(dnp no)
 		(uuid "e0086a30-3ddf-4c0a-baac-a4401f6ae49f")
 		(property "Reference" "C44"
-			(at 242.316 296.926 0)
+			(at 249.936 296.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33853,7 +33873,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 242.316 299.466 0)
+			(at 249.936 299.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33862,7 +33882,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 247.9548 293.37 0)
+			(at 255.5748 293.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33871,7 +33891,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 297.18 0)
+			(at 256.54 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33880,7 +33900,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 248.92 297.18 0)
+			(at 256.54 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33889,7 +33909,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 248.92 297.18 0)
+			(at 256.54 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34251,7 +34271,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2526e12-239d-4cd0-a42f-0e34d9e2063d")
-		(property "Reference" "LED75"
+		(property "Reference" "LED69"
 			(at 234.442 250.444 0)
 			(effects
 				(font
@@ -34328,7 +34348,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED75")
+					(reference "LED69")
 					(unit 1)
 				)
 			)
@@ -34343,7 +34363,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e28f9ec4-d54b-4f0a-b9ec-131d6b776531")
-		(property "Reference" "LED84"
+		(property "Reference" "LED92"
 			(at 227.838 365.506 0)
 			(effects
 				(font
@@ -34420,7 +34440,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED84")
+					(reference "LED92")
 					(unit 1)
 				)
 			)
@@ -35119,7 +35139,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e987042f-9a64-4285-9120-e3705b613499")
-		(property "Reference" "LED24"
+		(property "Reference" "LED32"
 			(at 227.838 144.526 0)
 			(effects
 				(font
@@ -35196,7 +35216,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED24")
+					(reference "LED32")
 					(unit 1)
 				)
 			)
@@ -36207,7 +36227,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f29d5a35-8f8f-4978-a112-e6aa058676fc")
-		(property "Reference" "LED51"
+		(property "Reference" "LED63"
 			(at 127.762 250.444 0)
 			(effects
 				(font
@@ -36284,7 +36304,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED51")
+					(reference "LED63")
 					(unit 1)
 				)
 			)
@@ -36365,7 +36385,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f40828e1-0c41-41fb-8322-cb9766556df8")
-		(property "Reference" "LED71"
+		(property "Reference" "LED68"
 			(at 216.662 250.444 0)
 			(effects
 				(font
@@ -36442,7 +36462,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED71")
+					(reference "LED68")
 					(unit 1)
 				)
 			)
@@ -36655,7 +36675,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6c1c1a5-0642-4c6e-afd2-7245467a6445")
-		(property "Reference" "LED39"
+		(property "Reference" "LED30"
 			(at 252.222 103.124 0)
 			(effects
 				(font
@@ -36732,7 +36752,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED39")
+					(reference "LED30")
 					(unit 1)
 				)
 			)
@@ -36983,7 +37003,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f852f036-53dc-4c5c-b8f2-fc1da3820a7f")
-		(property "Reference" "LED31"
+		(property "Reference" "LED26"
 			(at 181.102 103.124 0)
 			(effects
 				(font
@@ -37060,7 +37080,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED31")
+					(reference "LED26")
 					(unit 1)
 				)
 			)
@@ -37363,7 +37383,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa77006f-42e7-4463-b48f-47e40b2058fb")
-		(property "Reference" "LED68"
+		(property "Reference" "LED77"
 			(at 138.938 291.846 0)
 			(effects
 				(font
@@ -37440,7 +37460,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED68")
+					(reference "LED77")
 					(unit 1)
 				)
 			)
@@ -37587,7 +37607,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd903a75-b895-48de-abf2-20260b11cec0")
-		(property "Reference" "LED66"
+		(property "Reference" "LED57"
 			(at 138.938 218.186 0)
 			(effects
 				(font
@@ -37664,7 +37684,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED66")
+					(reference "LED57")
 					(unit 1)
 				)
 			)
@@ -37679,7 +37699,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe080574-25ab-487f-a9a6-46b39716d55f")
-		(property "Reference" "LED47"
+		(property "Reference" "LED62"
 			(at 109.982 250.444 0)
 			(effects
 				(font
@@ -37756,7 +37776,7 @@
 		(instances
 			(project "tiltbox"
 				(path "/7218f0a4-396b-4b27-b8c4-5f1c1074c06c/51cf576d-dc17-43f4-8d00-21a4099df4d6"
-					(reference "LED47")
+					(reference "LED62")
 					(unit 1)
 				)
 			)
